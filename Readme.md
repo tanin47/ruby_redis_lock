@@ -8,6 +8,8 @@ the lock is automatically released.
 
 Basically, it follows the algorithm explained here: http://redis.io/commands/setnx
 
+I believe it is an optimistic locking algorithm.
+
 Nevertheless, the algorithm on releasing a lock is improved. Please the comments in http://redis.io/commands/setnx
 
 The example of using it:
