@@ -50,7 +50,7 @@ gem install ruby_redis_lock
 or put it in your Gemfile:
 
 ```sh
-gen 'ruby_redis_lock'
+gem 'ruby_redis_lock'
 ```
 
 Help me
@@ -58,17 +58,13 @@ Help me
 
 1. Clone the project
 2. Install all dependencies with
-
 ```
 bundle install
 ```
-
 3. Start Redis and running all test cases
-
 ```
 bundle exec rspec spec/*
 ```
-
 4. Add a feature, if everything is ok
 5. Write tests for the feature
 6. Send me a pull request
