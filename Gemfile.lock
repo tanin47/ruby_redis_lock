@@ -1,0 +1,31 @@
+GIT
+  remote: git://github.com/ezmobius/redis-rb.git
+  revision: fffaa14ba473a0e2a1303f82f22e83b6abe01c64
+  specs:
+    redis (2.2.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.3)
+    multi_json (1.0.3)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+    simplecov (0.5.3)
+      multi_json (~> 1.0.3)
+      simplecov-html (~> 0.5.3)
+    simplecov-html (0.5.3)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  redis!
+  rspec
+  simplecov
