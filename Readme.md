@@ -56,7 +56,7 @@ gem 'ruby_redis_lock'
 Help me
 --------------
 
-1. Clone the project
+1. Fork the project
 2. Install all dependencies with
 ```
 bundle install
