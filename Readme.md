@@ -1,3 +1,9 @@
+NOTICE
+========
+
+This repo has been abandonned. Please see this repo instead: https://github.com/mgregory-carecloud/ruby_redis_lock
+
+
 Ruby-Redis-Lock - Distributed lock for Ruby (using Redis)
 =======================================================
 
